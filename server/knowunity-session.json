@@ -1,0 +1,187 @@
+{
+  "cookies": [
+    {
+      "name": "CONFIG",
+      "value": "TEST_1%2CSHOW_KNOWLEDGE_AREA_BREADCRUMBS_VARIANT_0%2CSHOW_CONTACT_COLLECTION_PARENT_FUNNEL_VARIANT_0",
+      "domain": "knowunity.com",
+      "path": "/",
+      "expires": 1766069514.684898,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "gFbPzPDVaePNK4rC48bLE7oASR7SdkFtrIdrBo9SyY8-1763477414-1.0.1.1-ojhoECRo0z3_HZvi.8r3OgcZj8amKDWtvNaK2kpBlC9n2gWz3SuUrfRbExvIdAN5EZ6FiHpDetOB.AC5ArRsv04fOUIvBx1oYoJfIS758Vg",
+      "domain": ".paddle.com",
+      "path": "/",
+      "expires": 1763479214.276517,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CLID",
+      "value": "be997be2fb4e4cc3ba4410019a82ade6.20251118.20261118",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1795013414.306121,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1763477414390,\"i_b\":\"xmbqF+bko+3sAOqVeDNs98KwjflYyR+mBDOoEKU8cso\"}",
+      "domain": "knowunity.com",
+      "path": "/",
+      "expires": 1779029414,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clck",
+      "value": "1gag5gq%5E2%5Eg14%5E0%5E2148",
+      "domain": ".knowunity.com",
+      "path": "/",
+      "expires": 1795013414,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "366097558FD26A85296F81FD8E0F6B18",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1797173415.821722,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1764082215.821895,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "366097558FD26A85296F81FD8E0F6B18",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1797173415.821959,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "366097558FD26A85296F81FD8E0F6B18",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1797173414.87316,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1764082214.873317,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1763478014.873399,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clsk",
+      "value": "ttxi8u%5E1763477415076%5E1%5E1%5Ej.clarity.ms%2Fcollect",
+      "domain": ".knowunity.com",
+      "path": "/",
+      "expires": 1763563815,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "LCwLp7WhA1a3.RtfCqIcgYa7S8ce2RiEaoWO_fFbNGQ-1763477428-1.0.1.1-Mt6mXdI552SLSzy8GjN3X8v1vdrWok208FhThnWCNC7aLfI45U1dr_BGTsEJe5Ad8ymntGdIAPCCKPDwssWcXEZSVZjxDtSbD8dJ1waTAFI",
+      "domain": ".hcaptcha.com",
+      "path": "/",
+      "expires": 1763479227.811069,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "hmt_id",
+      "value": "104ee73a-6c4f-414c-a4e2-6ca35ca23f89",
+      "domain": "api.hcaptcha.com",
+      "path": "/",
+      "expires": 1766069436.030566,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://knowunity.com",
+      "_crHasCrossSiteAncestor": true
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://knowunity.com",
+      "localStorage": [
+        {
+          "name": "DI",
+          "value": "39fbbd24-1f5b-45d5-8e4f-e031ff833a91"
+        },
+        {
+          "name": "SESSION_GENERATION_TIMESTAMP",
+          "value": "2025-11-18T14:50:13.940Z"
+        },
+        {
+          "name": "SESSION_TRACKING_UUID",
+          "value": "248dd4a7-f9f2-4e3c-a85b-18a24407358b"
+        },
+        {
+          "name": "server-time-offset",
+          "value": "474:1763477414128"
+        },
+        {
+          "name": "AUTHENTICATION_OPTION",
+          "value": "Email"
+        },
+        {
+          "name": "KNOWUNITY_COOKIE_CONSENT",
+          "value": "{\"required\":true,\"statistics\":true,\"marketing\":true}"
+        }
+      ]
+    }
+  ]
+}
