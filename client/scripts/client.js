@@ -4,7 +4,8 @@ const form = document.querySelector("form");
 
 function displayLoading() {
     res.style.visibility = "visible";
-    res.classList.remove("err", "succ");
+    if(res.classList.has("err")) res.classList.remove("err");
+    if(res.classList.has("succ")) res.classList.remove("succ");
     res.classList.add("loading");
     res.textContent = "⏳ Sto scaricando gli appunti...";
 }
