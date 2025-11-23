@@ -3,5 +3,25 @@
     "pdf-lib": "^1.17.1",
     "playwright": "^1.56.1",
     "sharp": "^0.34.5"
-  }
+  },
+  "name": "beamy",
+  "version": "1.0.0",
+  "description": "knowunity downloader's web server",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zacca007/beamy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zacca007/beamy/issues"
+  },
+  "homepage": "https://github.com/Zacca007/beamy#readme"
 }

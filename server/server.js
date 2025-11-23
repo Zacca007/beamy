@@ -134,7 +134,7 @@ async function handleRequest(req, res) {
 
 setInterval(session.cleanSessions, session.REFRESH_TIME);
 const SERVER = http.createServer(handleRequest);
-SERVER.listen(8000, "127.0.0.1", () => console.log("✅ https://pippizac.duckdns.org"));
+SERVER.listen(8000, "127.0.0.1", ()=>console.log("✅ server attivo"));
 
 
 // Gestione shutdown pulito
