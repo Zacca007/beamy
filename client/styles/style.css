@@ -152,7 +152,6 @@ button:active {
 #result {
     padding: 0.8rem 1rem;
     border-radius: 1rem;
-    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;

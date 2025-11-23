@@ -3,9 +3,9 @@ const res = document.getElementById("result");
 const form = document.querySelector("form");
 
 function displayLoading() {
-    res.style.visibility = "visible";
-    if(res.classList.has("err")) res.classList.remove("err");
-    if(res.classList.has("succ")) res.classList.remove("succ");
+    res.hidden = false;
+    if(res.classList.contains("err")) res.classList.remove("err");
+    if(res.classList.contains("succ")) res.classList.remove("succ");
     res.classList.add("loading");
     res.textContent = "⏳ Sto scaricando gli appunti...";
 }
@@ -24,7 +24,7 @@ function handleError(err = -1) {
     }
     res.classList.remove("loading");
     res.classList.add("err");
-    res.style.visibility = "visible";
+    res.hidden = false;
 }
 function handleSuccess(succ = -1) {
     res.classList.remove("loading");
@@ -32,7 +32,7 @@ function handleSuccess(succ = -1) {
         window.location = "/download.pdf";
     //else if (succ === 2) {
         res.classList.add("succ");
-        res.style.visibility = "visible";
+        res.hidden = false;
         res.textContent = "✅ PDF generato e scaricato!";
     }
 }
