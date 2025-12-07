@@ -6,6 +6,7 @@ const { scrapeKnowunity } = require("../src/knowunityScraper")
 const { webpToPdf } = require("../src/imageConverter")
 
 const HOSTNAME = "127.0.0.1";
+const PORT = 5000;
 const MIMETYPES = {
     '.html': 'text/html',      // File HTML
     '.css': 'text/css',        // Fogli di stile CSS
@@ -134,21 +135,12 @@ async function handleRequest(req, res) {
 
 setInterval(session.cleanSessions, session.REFRESH_TIME);
 const SERVER = http.createServer(handleRequest);
-SERVER.listen(8000, "127.0.0.1", ()=>console.log("✅ server attivo"));
+SERVER.listen(PORT, HOSTNAME, ()=>console.log("✅ server attivo"));
 
 
 // Gestione shutdown pulito
 process.on("SIGINT", async () => {
     console.log("\n🔴 Arresto in corso...");
-
-    try {
-        if (global.browser) {
-            await global.browser.close();
-            console.log("🧹 Browser Playwright chiuso");
-        }
-    } catch (err) {
-        console.error("Errore chiudendo il browser:", err);
-    }
 
     SERVER.close(() => {
         console.log("🟢 Server HTTP chiuso");
