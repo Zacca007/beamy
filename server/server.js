@@ -19,6 +19,7 @@ const ALLOWED_PATHS = {
     '/styles/style.css': '../client/styles/style.css',
     '/scripts/client.js': '../client/scripts/client.js',
     '/assets/kitty.ico': '../client/assets/kitty.ico',
+    '/assets/kitty.png': '../client/assets/kitty.png'
 };
 
 function serveFile(res, filePath) {
