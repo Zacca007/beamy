@@ -66,6 +66,8 @@ function getSession(req) {
     return { sid, data: sessionData };
 }
 
+setInterval(cleanSessions, REFRESH_TIME);
+
 module.exports = {
     getSession,
     cleanSessions,
